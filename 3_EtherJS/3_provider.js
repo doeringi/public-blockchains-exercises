@@ -1,3 +1,6 @@
+// Loading path module for operations with file paths.
+const path = require("path");
+
 // Ethers JS: Providers.
 ////////////////////////
 
@@ -13,7 +16,6 @@
 // Hint: As you did in file 1_wallet.
 
 // Your code here!
-require("dotenv").config();
 
 // Exercise 1. Connect to Mainnet (a.k.a welcome async!).
 /////////////////////////////////////////////////////////
@@ -43,7 +45,7 @@ require("dotenv").config();
 
 // Your code here!
 
-// b. Verify that the network's name is "mainnet" and the chain id that theis 1.
+// b. Verify that the network's name is "mainnet" and the chain id is 1.
 
 // Hint: `getNetwork()`.
 
